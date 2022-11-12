@@ -36,7 +36,7 @@ public class PersonController {
 
     @GetMapping
     /* public List<PersonDTO> listAll() { return personService.listAll(); */
-    public String getBook() { return "API Test";
+    public String getBook() { return "Gororoba Test";
     }
 
     @GetMapping("/{id}")
